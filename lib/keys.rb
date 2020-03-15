@@ -9,6 +9,8 @@ groceries = {
 }
 
 def get_the_keys(groceries)
+  
   food_groups = []
   food_groups << groceries.keys
+  
 end
