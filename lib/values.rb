@@ -15,7 +15,7 @@ def get_the_values(groceries)
   meat: ["chicken", "steak", "salmon"],
   grains: ["rice", "pasta"]
 }
-  foods = []
+  foods = ""
   foods << groceries.values.flatten
   binding.pry
 end
