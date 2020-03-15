@@ -11,6 +11,6 @@ groceries = {
 def get_the_values(groceries)
   foods = []
   foods << groceries.values.flatten
-  foods.sort.flatten
+  foods.flatten.sort 
   binding.pry
 end
