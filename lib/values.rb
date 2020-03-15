@@ -16,6 +16,6 @@ def get_the_values(groceries)
   grains: ["rice", "pasta"]
 }
   foods = []
-  foods = groceries.values.flatten
-  foods
+  foods << groceries.values.flatten
+  
 end
