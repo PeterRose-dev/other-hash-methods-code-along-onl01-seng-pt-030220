@@ -15,7 +15,6 @@ def get_the_keys(groceries)
   meat: ["chicken", "steak", "salmon"],
   grains: ["rice", "pasta"]
 }
-  food_groups = []
-  food_groups << groceries.keys
+  groceries.keys
   
 end
